@@ -1,0 +1,498 @@
+body {
+    background-color: #151521;
+  }
+  
+  .topheader:before{
+        position: absolute;
+      content: '';
+      left: 0;
+      top: 0;
+      right: 0;
+      height: 2px;
+      background: linear-gradient(to right, #fd004c, #fe9000, #fff020, #3edf4b, #3363ff, #b102b7, #fd004c );
+      animation: rainbow-move 6s infinite linear alternate;
+  }
+  
+  @keyframes rainbow-move {
+    100% {
+      background-position-x: 4000px;
+    }
+  }
+  
+  
+  .bg-red {
+    background-color: red !important;
+  }
+  
+  .bg-green {
+    background-color: green !important;
+  }
+  
+  .bg-purple {
+    background-color: purple !important;
+  }
+  
+  .bg-black {
+    background-color: black !important;
+  }
+  
+  .bg-cholet {
+    background-color: chocolate !important;
+  }
+  
+  .bg-blueviolet {
+    background-color: blueviolet !important;
+  }
+  
+  .bg-cadetblue {
+    background-color: cadetblue !important;
+  }
+  
+  .bg-crimson {
+    background-color: crimson !important;
+  }
+  
+  .bg-darkblue {
+    background-color: darkblue !important;
+  }
+  
+  .bg-tamato {
+    background-color: tomato !important;
+  }
+  
+  .bg-navy {
+    background-color: navy !important;
+  }
+  
+  .bg-section {
+    margin: auto;
+    width: 900px;
+    height: 900px;
+    background: #1e1e2d;
+    mix-blend-mode: normal;
+    backdrop-filter: blur(250px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 5px;
+  }
+  
+  .symbol {
+    display: inline-block;
+    flex-shrink: 0;
+    position: relative;
+    border-radius: 0.475rem;
+  }
+  
+  .symbol.symbol-50px .symbol-label {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .symbol .symbol-label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    color: #cdcdde;
+    background-color: #1b1b29;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 0.475rem;
+  }
+  
+  .yellow-bg
+  {
+    cursor:pointer;
+     transition: 0.5s;
+  }
+  .yellow-bg:hover
+  {
+    background-color: #383928 !important;
+      transition: 0.5s;
+  }
+  
+  .green-bg
+  {
+    cursor:pointer;
+     transition: 0.5s;
+  }
+  
+  .green-bg:hover
+  {
+    background-color: #28392a !important;
+      transition: 0.5s;
+  }
+  
+  .svg-icon.svg-icon-green svg [fill]:not(.permanent):not(g) {
+      transition: fill .3s ease;
+      fill: #23ff00;
+  }
+  
+  .orange-bg
+  {
+    cursor:pointer;
+     transition: 0.5s;
+  }
+  .orange-bg:hover
+  {
+    background-color: #392828 !important;
+      transition: 0.5s;
+  }
+  
+  
+  .color1-bg
+  {
+    cursor:pointer;
+     transition: 0.5s;
+  }
+  .color1-bg:hover
+  {
+    background-color: #283839 !important;
+      transition: 0.5s;
+  }
+  
+  .color2-bg
+  {
+    cursor:pointer;
+     transition: 0.5s;
+  }
+  .color2-bg:hover
+  {
+      background-color: rgb(26 30 76 / 57%) !important;
+      transition: 0.5s;
+  }
+  
+  .svg-icon.svg-icon-color2 svg [fill]:not(.permanent):not(g) {
+      transition: fill .3s ease;
+      fill: #323eff;
+  }
+  
+  
+  .color2-bg:hover .svg-icon.svg-icon-color2 svg [fill]:not(.permanent):not(g) {
+    transition: fill .3s ease;
+      fill: #7f86ff;
+  }
+  
+  .svg-icon.svg-icon-orange svg [fill]:not(.permanent):not(g) {
+      transition: fill .3s ease;
+      fill: #ff1e1e;
+  }
+  
+  
+  .svg-icon.svg-icon-color1 svg [fill]:not(.permanent):not(g) {
+      transition: fill .3s ease;
+      fill: #1ec7ff;
+  }
+  
+  .svg-icon {
+      line-height: 1;
+  }
+  
+  .svg-icon.svg-icon-2x svg {
+      height: 2rem!important;
+      width: 2rem!important;
+  }
+  
+  .svg-icon.svg-icon-yellow svg [fill]:not(.permanent):not(g)
+  {
+        transition: fill .3s ease;
+      fill: #fffc36;
+  }
+  
+  .svg-icon.svg-icon-success svg [fill]:not(.permanent):not(g) {
+      transition: fill .3s ease;
+      fill: #0bb783;
+  }
+  
+  .svg-icon.svg-icon-danger svg [fill]:not(.permanent):not(g) {
+      transition: fill .3s ease;
+      fill: #f64e60;
+  }
+  
+  .svg-icon.svg-icon-info svg [fill]:not(.permanent):not(g) {
+      transition: fill .3s ease;
+      fill: #8950fc;
+  }
+  
+  
+  .svg-icon.svg-icon-warning svg [fill]:not(.permanent):not(g) {
+      transition: fill .3s ease;
+      fill: #ffa800;
+  }
+  
+  .svg-icon.svg-icon-primary svg [fill]:not(.permanent):not(g) {
+      transition: fill .3s ease;
+      fill: #3699ff;
+  }
+  
+  .bg-light-primary {
+      background-color: #212e48!important;
+  }
+  
+  
+  
+  
+  /**************************/
+  
+  .bg-primary.hoverable:hover {
+    background-color: #187de4 !important;
+  }
+  .bg-hover-light-primary {
+    cursor: pointer;
+  }
+  .bg-hover-light-primary:hover {
+    background-color: #212e48 !important;
+  }
+  .bg-state-light-primary {
+    cursor: pointer;
+  }
+  .bg-state-light-primary.active,
+  .bg-state-light-primary:hover {
+    background-color: #212e48 !important;
+  }
+  .bg-hover-primary {
+    cursor: pointer;
+  }
+  .bg-hover-primary:hover {
+    --bg-color: 54, 153, 255;
+    background-color: #3699ff !important;
+  }
+  .bg-active-primary.active {
+    --bg-color: 54, 153, 255;
+    background-color: #3699ff !important;
+  }
+  .bg-state-primary {
+    cursor: pointer;
+  }
+  .bg-state-primary.active,
+  .bg-state-primary:hover {
+    --bg-color: 54, 153, 255;
+    background-color: #3699ff !important;
+  }
+  .bg-secondary {
+    --bg-color: 50, 50, 72;
+  }
+  .bg-secondary.hoverable:hover {
+    background-color: #474761 !important;
+  }
+  .bg-hover-secondary {
+    cursor: pointer;
+  }
+  .bg-hover-secondary:hover {
+    --bg-color: 50, 50, 72;
+    background-color: #323248 !important;
+  }
+  .bg-active-secondary.active {
+    --bg-color: 50, 50, 72;
+    background-color: #323248 !important;
+  }
+  .bg-state-secondary {
+    cursor: pointer;
+  }
+  .bg-state-secondary.active,
+  .bg-state-secondary:hover {
+    --bg-color: 50, 50, 72;
+    background-color: #323248 !important;
+  }
+  .bg-light-success {
+    background-color: #1c3238 !important;
+  }
+  .bg-light-success.hoverable:hover {
+    background-color: #122024 !important;
+  }
+  .bg-success {
+    --bg-color: 11, 183, 131;
+  }
+  .bg-success.hoverable:hover {
+    background-color: #04aa77 !important;
+  }
+  .bg-hover-light-success {
+    cursor: pointer;
+  }
+  .bg-hover-light-success:hover {
+    background-color: #1c3238 !important;
+  }
+  .bg-state-light-success {
+    cursor: pointer;
+  }
+  .bg-state-light-success.active,
+  .bg-state-light-success:hover {
+    background-color: #1c3238 !important;
+  }
+  .bg-hover-success {
+    cursor: pointer;
+  }
+  .bg-hover-success:hover {
+    --bg-color: 11, 183, 131;
+    background-color: #0bb783 !important;
+  }
+  .bg-active-success.active {
+    --bg-color: 11, 183, 131;
+    background-color: #0bb783 !important;
+  }
+  .bg-state-success {
+    cursor: pointer;
+  }
+  .bg-state-success.active,
+  .bg-state-success:hover {
+    --bg-color: 11, 183, 131;
+    background-color: #0bb783 !important;
+  }
+  .bg-light-info {
+    background-color: #2f264f !important;
+  }
+  .bg-light-info.hoverable:hover {
+    background-color: #231c3a !important;
+  }
+  .bg-info {
+    --bg-color: 137, 80, 252;
+  }
+  .bg-info.hoverable:hover {
+    background-color: #7337ee !important;
+  }
+  .bg-hover-light-info {
+    cursor: pointer;
+  }
+  .bg-hover-light-info:hover {
+    background-color: #2f264f !important;
+  }
+  .bg-state-light-info {
+    cursor: pointer;
+  }
+  .bg-state-light-info.active,
+  .bg-state-light-info:hover {
+    background-color: #2f264f !important;
+  }
+  .bg-hover-info {
+    cursor: pointer;
+  }
+  .bg-hover-info:hover {
+    --bg-color: 137, 80, 252;
+    background-color: #8950fc !important;
+  }
+  .bg-active-info.active {
+    --bg-color: 137, 80, 252;
+    background-color: #8950fc !important;
+  }
+  .bg-state-info {
+    cursor: pointer;
+  }
+  .bg-state-info.active,
+  .bg-state-info:hover {
+    --bg-color: 137, 80, 252;
+    background-color: #8950fc !important;
+  }
+  .bg-light-warning {
+    background-color: #392f28 !important;
+  }
+  .bg-light-warning.hoverable:hover {
+    background-color: #27201b !important;
+  }
+  .bg-warning {
+    --bg-color: 255, 168, 0;
+  }
+  .bg-warning.hoverable:hover {
+    background-color: #ee9d01 !important;
+  }
+  .bg-hover-light-warning {
+    cursor: pointer;
+  }
+  .bg-hover-light-warning:hover {
+    background-color: #392f28 !important;
+  }
+  .bg-state-light-warning {
+    cursor: pointer;
+  }
+  .bg-state-light-warning.active,
+  .bg-state-light-warning:hover {
+    background-color: #392f28 !important;
+  }
+  .bg-hover-warning {
+    cursor: pointer;
+  }
+  .bg-hover-warning:hover {
+    --bg-color: 255, 168, 0;
+    background-color: #ffa800 !important;
+  }
+  .bg-active-warning.active {
+    --bg-color: 255, 168, 0;
+    background-color: #ffa800 !important;
+  }
+  .bg-state-warning {
+    cursor: pointer;
+  }
+  .bg-state-warning.active,
+  .bg-state-warning:hover {
+    --bg-color: 255, 168, 0;
+    background-color: #ffa800 !important;
+  }
+  .bg-light-danger {
+    background-color: #3a2434 !important;
+  }
+  .bg-light-danger.hoverable:hover {
+    background-color: #271823 !important;
+  }
+  .bg-danger {
+    --bg-color: 246, 78, 96;
+  }
+  .bg-danger.hoverable:hover {
+    background-color: #ee2d41 !important;
+  }
+  .bg-hover-light-danger {
+    cursor: pointer;
+  }
+  .bg-hover-light-danger:hover {
+    background-color: #3a2434 !important;
+  }
+  .bg-state-light-danger {
+    cursor: pointer;
+  }
+  .bg-state-light-danger.active,
+  .bg-state-light-danger:hover {
+    background-color: #3a2434 !important;
+  }
+  .bg-hover-danger {
+    cursor: pointer;
+  }
+  .bg-hover-danger:hover {
+    --bg-color: 246, 78, 96;
+    background-color: #f64e60 !important;
+  }
+  .bg-active-danger.active {
+    --bg-color: 246, 78, 96;
+    background-color: #f64e60 !important;
+  }
+  .bg-state-danger {
+    cursor: pointer;
+  }
+  .bg-state-danger.active,
+  .bg-state-danger:hover {
+    --bg-color: 246, 78, 96;
+    background-color: #f64e60 !important;
+  }
+  .bg-light-dark {
+    background-color: #2b2b40 !important;
+  }
+  .bg-light-dark.hoverable:hover {
+    background-color: #1f1f2e !important;
+  }
+  .bg-dark {
+    --bg-color: 255, 255, 255;
+  }
+  .bg-dark.hoverable:hover {
+    background-color: #e8e8e8 !important;
+  }
+  .bg-hover-light-dark {
+    cursor: pointer;
+  }
+  .bg-hover-light-dark:hover {
+    background-color: #2b2b40 !important;
+  }
+  .bg-state-light-dark {
+    cursor: pointer;
+  }
+  .bg-state-light-dark.active,
+  .bg-state-light-dark:hover {
+    background-color: #2b2b40 !important;
+  }
+  
