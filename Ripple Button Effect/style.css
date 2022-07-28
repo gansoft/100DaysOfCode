@@ -1,0 +1,54 @@
+body {
+    font-family: system-ui;
+    background: #151521;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+  }
+  
+  .ripple-button {
+    display: inline-grid;
+    place-items: center;
+    position: relative;
+    isolation: isolate;
+    appearance: none;
+    cursor: pointer;
+    font-size: 3rem;
+    padding: 1em 3em;
+    text-transform: uppercase;
+    background-color: transparent;
+    color: #a33d75;
+    border: 5px solid currentColor;
+    border-radius: 0.5em;
+    overflow: hidden;
+  }
+  
+  .ripple-button::before {
+    content: "";
+    position: absolute;
+    top: var(--y);
+    left: var(--x);
+    transform: translate(-50%, -50%) scale(0);
+    transition: transform 750ms;
+    z-index: -1;
+    width: 150%;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    background-image: linear-gradient(135deg, #ed7b84, #9055ff);
+    opacity: 0.7;
+  }
+  
+  .pulse::before {
+    animation: pulse 500ms;
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: translate(-50%, -50%) scale(0);
+      opacity: 0.5;
+    }
+    100% {
+      transform: translate(-50%, -50%) scale(1);
+      opacity: 0;
+    }
+  }
