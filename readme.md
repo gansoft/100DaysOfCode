@@ -8,12 +8,12 @@ https://github.com/gansoft/100DaysOfCode/tree/main/Glass%20Buttons
 
 <br>
 #Challenge 2 <br>
-Pre CSS Gradient wave <br>
+Pure CSS Gradient wave <br>
 https://github.com/gansoft/100DaysOfCode/tree/main/Pre%20CSS%20Gradient%20wave
 
 <br>
 #Challenge 3 <br>
-Pre CSS Gradient wave <br>
-https://github.com/gansoft/100DaysOfCode/tree/main/Pre%20CSS%20Gradient%20wave
+Pure CSS Simple Hover Link Effect <br>
+https://github.com/gansoft/100DaysOfCode/tree/main/Pure%20CSS%20Simple%20Hover%20Link%20Effect
 
 
