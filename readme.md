@@ -1,6 +1,6 @@
-<h1>HI All,<br>
-
-My Name is Ganesh Chikhalikar working as Technical Lead at Sciffer Analytics Pvt Ltds from India and i have started 100 days of code</h1>
+<h1>HI All,<br><h1>
+<br>
+My Name is Ganesh Chikhalikar working as Technical Lead at Sciffer Analytics Pvt Ltds from India and i have started 100 days of code
 <br><br>
 #Challenge 1 <br>
 Glass Buttons <br>
