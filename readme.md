@@ -21,7 +21,7 @@ https://github.com/gansoft/100DaysOfCode/tree/main/Pure%20CSS%20Simple%20Hover%2
 Pure CSS card hover vertical expand animation <br>
 https://github.com/gansoft/100DaysOfCode/tree/main/Pure%20CSS%20card%20hover%20vertical%20expand%20animation
 
-<br><br>
+<br>
 #Challenge 5 <br><br>
 Ripple Button Effect<br><br>
 https://github.com/gansoft/100DaysOfCode/tree/main/Ripple%20Button%20Effect
