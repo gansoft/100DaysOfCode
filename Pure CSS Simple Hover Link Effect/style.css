@@ -26,6 +26,12 @@ h1 {
   color:#eee;
   cursor:pointer;
 }
+h2 {
+  position: relative;
+  font-size: 4rem;
+  color:#eee;
+  cursor:pointer;
+}
 
 html {
   block-size: 100%;
